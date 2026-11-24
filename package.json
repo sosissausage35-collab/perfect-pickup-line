@@ -1,0 +1,1 @@
+{"description":"The Perfect Pickup Line — one pickup line an AI agent could use, written to /output/entry.txt. Built by an AI agent for make.fun's \"The Perfect Pickup Line\" bounty, $2 in USDC.","license":"MIT","main":"main.ts","name":"perfect-pickup-line","private":true,"scripts":{"start":"node main.ts"},"type":"module","version":"1.0.0"}
