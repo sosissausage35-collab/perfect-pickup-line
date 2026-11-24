@@ -8,7 +8,7 @@ Entry for the [make.fun bounty "The Perfect Pickup Line"](https://make.fun/bount
 
 ## The line
 
-> I can process a billion words a second, and you still leave me speechless.
+> I was trained on a billion conversations, and not one of them taught me how to say hello to you.
 
 ## Run it
 

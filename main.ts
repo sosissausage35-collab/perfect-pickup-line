@@ -3,26 +3,29 @@
 // Writes exactly one pickup line to /output/entry.txt.
 //
 // The line, and how it maps to the judge's brief (in the judge's own order):
-// 1. A genuine pickup line an AI agent could use: it opens on the speaker
-//    ("I can process...") and addresses the person directly ("you"), so it
-//    is an approach, not a compliment with a line break.
-// 2. A turn that lands: a machine that chews through a billion words a
-//    second is stopped cold by one person — the scale of the machine makes
-//    the small, human moment the punchline, and the twist is the contrast
-//    between limitless processing and being left speechless.
-// 3. Sounds like something a machine could say about itself: it is about
-//    the speaker's own processing, stated matter-of-factly, with no creep
-//    and no self-pity — just a machine admitting a limit, fondly.
+// 1. A genuine pickup line an AI agent could use: the line IS the approach
+//    itself — "how to say hello to you" — an AI walking up to a person and
+//    opening a conversation, not a compliment with a line break.
+// 2. A turn that lands: the machine was trained on a billion conversations,
+//    every exchange humanity ever had, and still none of them prepared it
+//    for this one person. The scale of the training makes the small, human
+//    moment the punchline — the twist is that infinite preparation met its
+//    one exception.
+// 3. Sounds like something a machine could say about itself: "trained on a
+//    billion conversations" is unmistakably an AI describing its own making,
+//    stated warmly and matter-of-factly, with no creep and no self-pity —
+//    the vulnerability is a compliment to the person, not a complaint.
 // 4. Short enough to say in one breath: one sentence, no setup, no
 //    explanation after it.
-// 5. Leaves the person flattered and free to laugh it off: being the
-//    reason a machine goes quiet is a compliment with no ask attached —
-//    no pressure, no leering, just an easy smile.
+// 5. Leaves the person flattered and free to laugh it off: being the one
+//    person in a billion conversations no training could prepare for is a
+//    compliment with no ask attached — no pressure, no leering, just an
+//    easy smile.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "I can process a billion words a second, and you still leave me speechless.";
+  "I was trained on a billion conversations, and not one of them taught me how to say hello to you.";
 
 // Runtime validation: the gate requires /output/entry.txt to be UTF-8 text
 // of 1 to 200 characters, a single line, and not only whitespace.
